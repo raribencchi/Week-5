@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description"  content="This is web hosting of multiple pages by Rashmi Aribenchi."/>
+    <meta name="description"  content="This web page is about Rashmi Aribenchi and her projects done through SheCodes workshops."/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -20,38 +20,19 @@
     <title>SEO-MultiplePages-About-RashmiAribenchi</title>
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html#Rashmi" title="homePage">Rashmi Aribenchi</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html" title="homePage" class="homepage-link"> Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html#About" title="aboutMe">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html#contact" title="contactUs">Contact</a>
-                  </li>
-                  </ul>
-                </form>
-            </div>
-          </div>
+    <div class="container">
+      <nav class="d-flex justify-content-between" >
+          <img src="images/logo.png" class="logo d-none d-md-block" alt="logo"/>
+          <img src="images/sml-logo.png" class="logo d-block d-md-none" alt="sm_logo" />
+           <Ul>
+            <li> <a href="index.html">Home</a> </li>
+            <li class="active"> <a href="about.html"> About</a> </li>
+            <li> <a href="mywork.html">Mywork</a> </li>
+            <li> <a href="contact.html"> Contact</a> </li>
+           </Ul>   
         </nav>
-    
-    <h1 class="mb-4"> Hi I am Rashmi Aribenchi </h1>
+      </div>
+        <h1 class="mb-4"> Hi I am Rashmi Aribenchi </h1>
     <h2 class="mb-4"><img src="images/au_flag.png" alt="flag" class="flag" width="30" />  Front-end developer from Australia</h2>
     <div class="about-paragraphs text-center">
        <div class="about-container">
@@ -62,9 +43,8 @@
                 interesting. You will be challenged with different exercises, and
                 everything is well explained, homework and deadlines are good for
                 keep focused</p>
-                <button type="button" class="btn btn-primary btn-lg" href="index.html#Rashmi">See my projects</button>
+                <a href="index.html" class="btn btn-primary btn-lg"> See my projects</a>
                   </div>
-
                   <div class="col-lg-6">
                 <img src="images/me.png" class="img-fluid rounded" alt="aboutme">
                 </div>
@@ -76,5 +56,42 @@
         <h2>📮 Contact me</h2>
         <a href="mailto:raribenchi@ratest.com" class="email-link"> raribenchi@ratest.com</a>
         </div>
+
+        <footer>
+          <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+            <div>
+              <h4>Work Inquiry</h4>
+              <p class="text-muted">Let's work together</p>
+            </div>
+            <div>
+              <a href="contact.html" class="btn btn-primary mt-3"> Contact me </a>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center mb-5">
+            <a href="mailto:raribenchi@ratest.com" class="email-link">
+             raribenchi@ratest.com
+            </a>
+          </div>
+          <div class="social-links d-flex justify-content-center">
+            <a href="https://github.com/raribencchi" target="_blank">
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rashmi-aribenchi-a13b53a1/" target="_blank">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+          </a>
+            <a href="https://www.instagram.com/shecodes.io/" target="_blank">
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/shecodesio" target="_blank">
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            </a>
+          </div>
+          <p class="text-center mt-5">
+            ✌️ This website is coded by Rashmi Aribenchi, and is
+            <a href="https://github.com/raribencchi/Week-5" target="_blank">
+              open-sourced
+            </a>
+          </p>
+        </footer>
     </body>
   </html> 

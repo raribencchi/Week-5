@@ -231,7 +231,6 @@ footer h4 {
 }
 
 footer .contact-box {
-display: inline;
   background: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
