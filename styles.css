@@ -149,7 +149,7 @@
    }
   }
 
-.btn btn-primary btn-lg {
+ .btn btn-primary btn-lg {
 display: block;
 text-align: center;
 }
@@ -196,7 +196,13 @@ height: 41.82px;
 left: 165px;
 top: 40px;
 }
- 
+sm_logo {
+position: absolute;
+width: 90px;
+height: 20px;
+left: 165px;
+top: 40px;
+}
 nav ul {
   margin: 0;
   padding: 0;
