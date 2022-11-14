@@ -189,15 +189,17 @@ text-align: center;
   margin: 30px;
 }
 
-logo {
-position: absolute;
+.logo {
+display: block;
+align-self: flex-start;
 width: 150px;
 height: 41.82px;
 left: 165px;
 top: 40px;
 }
-sm_logo {
-position: absolute;
+.sm_logo {
+display: block;
+align-self: flex-start;
 width: 90px;
 height: 20px;
 left: 165px;
