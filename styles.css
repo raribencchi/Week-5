@@ -191,12 +191,7 @@ text-align: center;
 
 .logo {
 display: block;
-<<<<<<< HEAD
-align-items: flex-start;
-=======
 align-self: flex-start;
-width: 150px;
->>>>>>> 9eac1c563ca6f668f541fec06a8ac6f215dafeef
 height: 41.82px;
 left: 165px;
 top: 40px;
@@ -222,7 +217,6 @@ nav li {
 }
 
 nav a {
-
   text-decoration: none;
   color: #272142;
   transition: all 150ms ease-in-out;
