@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description"  content="This is web hosting of multiple pages by Rashmi Aribenchi."/>
+    <meta name="description"  content="This web page is about Rashmi Aribenchi and her projects done through SheCodes workshops."/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -17,23 +17,24 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles.css" />
-
+    <script src="https://kit.fontawesome.com/bd875becd9.js" crossorigin="anonymous"></script>
     <title>mywork-RashmiAribenchi </title>
   </head>
 
-<body>    
+<body>   
   <div class="container">
     <nav class="d-flex justify-content-between" >
-        <img src="images/logo.png" class="logo" alt="logo"/>
+        <img src="images/logo.png" class="logo d-none d-md-block" alt="logo"/>
+        <img src="images/sm_logo.png" class="logo d-block d-md-none" alt="sm_logo" />
          <Ul>
-          <li class="active"> <a href="index.html"> Home</a> </li>
+          <li> <a href="index.html">Home</a> </li>
           <li> <a href="about.html"> About</a> </li>
-          <li> <a href="mywork.html">Mywork</a> </li>
+          <li class="active"> <a href="mywork.html">Mywork</a> </li>
           <li> <a href="contact.html"> Contact</a> </li>
          </Ul>   
       </nav>
-    </div>     
-<div class="content-container container">
+    </div> 
+ <div class="content-container container">
 <div class="contents">>
   <h1 class="mb-5">Take a look at what I have been working on!</h1>   
  <div class="row">
@@ -60,7 +61,43 @@
     </div>
 </div>
  </div>
-</div>        
+</div>
+<footer>
+  <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+    <div>
+      <h4>Work Inquiry</h4>
+      <p class="text-muted">Let's work together</p>
+    </div>
+    <div>
+      <a href="contact.html" class="btn btn-primary mt-3"> Contact me </a>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center mb-5">
+    <a href="mailto:raribenchi@ratest.com" class="email-link">
+     raribenchi@ratest.com
+    </a>
+  </div>
+  <div class="social-links d-flex justify-content-center">
+    <a href="https://github.com/raribencchi" target="_blank">
+      <i class="fab fa-github" aria-hidden="true"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/rashmi-aribenchi-a13b53a1/" target="_blank">
+    <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+  </a>
+    <a href="https://www.instagram.com/shecodes.io/" target="_blank">
+      <i class="fab fa-instagram" aria-hidden="true"></i>
+    </a>
+    <a href="https://twitter.com/shecodesio" target="_blank">
+      <i class="fab fa-twitter" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p class="text-center mt-5">
+    ✌️ This website is coded by Rashmi Aribenchi, and is
+    <a href="https://github.com/raribencchi/Week-5" target="_blank">
+      open-sourced
+    </a>
+  </p>
+</footer>        
 </body>
 </html>
 
